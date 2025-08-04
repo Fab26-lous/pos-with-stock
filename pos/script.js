@@ -306,7 +306,7 @@ function submitAllSales() {
 
 function submitSaleToGoogleForm(sale) {
   // 1. Base URL with forced submission parameter
-  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeEMu130jnWfCBt1KRtU7jbCl_UoZeFASepzANCihw6VLwl0w//formResponse?submit=Submit";
+  const formUrl = "https://docs.google.com/forms/d/e/1FAIpQLSeEMu130jnWfCBt1KRtU7jbCl_UoZeFASepzANCihw6VLwl0w/formResponse?submit=Submit";
 
   // 2. Prepare all form data
   const formData = new URLSearchParams();
