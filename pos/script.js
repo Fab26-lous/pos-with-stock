@@ -334,6 +334,13 @@ function submitSaleToGoogleForm(sale) {
       "Content-Type": "application/x-www-form-urlencoded"
     },
     body: formData.toString()
+     })
+  .then(() => {
+    console.log("Successfully submitted:", sale.item);
+  })
+  .catch(err => {
+    console.error("Submission error:", err);
+    throw err;
   });
 }
 
